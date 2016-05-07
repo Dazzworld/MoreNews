@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/reader_actionbar"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="#fff"
+    android:orientation="horizontal" >
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/btn_touch_bg"
+        android:src="@drawable/base_action_bar_back_black" />
+
+    <ImageButton
+        android:visibility="gone"
+        android:id="@+id/add_favorite"
+        android:background="@drawable/btn_touch_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_action_action_grade"/>
+    
+    <View 
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/actionbar_line"/>
+</RelativeLayout>

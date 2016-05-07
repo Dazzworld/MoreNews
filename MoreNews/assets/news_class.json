@@ -1,0 +1,99 @@
+{
+        "channelList": [
+            {
+                "url": "http://c.3g.163.com/nc/article/headline/T1348647853363/",
+				"id": "T1348647853363",
+                "name": "头条"
+            },
+            {
+                "url": "http://c.3g.163.com/nc/article/list/T1348648517839/",
+				"id": "T1348648517839",
+                "name": "娱乐"
+            },
+            {
+                "url": "http://c.3g.163.com/nc/article/list/T1348649079062/",
+				"id": "T1348649079062",
+                "name": "体育"
+            },
+            {
+                "url": "http://c.3g.163.com/nc/article/list/T1348648756099/",
+				"id": "T1348648756099",
+                "name": "财经"
+            },
+            {
+                "url": "http://c.3g.163.com/nc/article/list/T1348649580692/",
+				"id": "T1348649580692",
+                "name": "科技"
+            },
+            {
+                "url": "http://c.3g.163.com/nc/article/list/T1348650593803/",
+				"id": "T1348650593803",
+                "name": "时尚"
+            },
+            {
+                "url": "http://c.3g.163.com/nc/article/list/T1350383429665/",
+				"id": "T1350383429665",
+                "name": "轻松一刻"
+            },
+            {
+                "url": "http://c.3g.163.com/nc/article/list/T1348648141035/",
+				"id": "T1348648141035",
+                "name": "军事"
+            },
+            {
+                "url": "http://c.3g.163.com/nc/article/list/T1348654151579/",
+				"id": "T1348654151579",
+                "name": "游戏"
+            },
+            {
+                "url": "http://c.m.163.com/nc/article/list/T1348648650048/",
+				"id": "T1348648650048",
+                "name": "影视"
+            },
+            {
+                "url": "http://c.m.163.com/nc/article/list/T1348649654285/",
+				"id": "T1348649654285",
+                "name": "手机"
+            },
+            {
+                "url": "http://c.3g.163.com/nc/article/list/T1422935072191/",
+                "id": "T1422935072191",
+                "name": "画报"
+            },
+            {
+                "url": "http://c.m.163.com/nc/article/list/T1444270454635/",
+                "id": "T1444270454635",
+                "name": "漫画"
+            },
+            {
+                "url": "http://c.3g.163.com/nc/article/list/T1370583240249/",
+                "id": "T1370583240249",
+                "name": "原创"
+            },
+            {
+                "url": "http://c.m.163.com/nc/article/list/T1348648037603/",
+                "id": "T1348648037603",
+                "name": "社会"
+            },
+            {
+                "url": "http://c.3g.163.com/nc/article/list/T1368497029546/",
+                "id": "T1368497029546",
+                "name": "历史"
+            },
+            {
+                "url": "http://c.3g.163.com/nc/article/list/T1414389941036/",
+                "id": "T1414389941036",
+                "name": "健康"
+            },
+            {
+                "url": "http://c.m.163.com/nc/article/list/T1348650839000/",
+                "id": "T1348650839000",
+                "name": "情感"
+            },
+            {
+                "url": "http://c.m.163.com/nc/article/list/T1348649776727/",
+                "id": "T1348649776727",
+                "name": "数码"
+            }
+        ]
+    }

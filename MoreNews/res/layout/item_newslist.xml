@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:maxHeight="110dp"
+    android:padding="4dp">
+
+    <com.bm.library.PhotoView
+        android:id="@+id/image_view"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/list_placeholder_small" />
+
+    <LinearLayout
+        android:id="@+id/doc_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/image_view"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/news_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/news_dec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textColor="#aaaaaa"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/photo_layout"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_below="@id/doc_layout"
+        android:orientation="horizontal" >
+
+        <com.bm.library.PhotoView
+            android:id="@+id/photo1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:layout_margin="4dp"
+            android:src="@drawable/list_placeholder_small"
+            android:scaleType="centerInside" />
+
+        <com.bm.library.PhotoView
+            android:id="@+id/photo2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:layout_margin="4dp"
+            android:src="@drawable/list_placeholder_small"
+            android:scaleType="centerInside" />
+
+        <com.bm.library.PhotoView
+            android:id="@+id/photo3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:layout_margin="4dp"
+            android:src="@drawable/list_placeholder_small"
+            android:scaleType="centerInside" />
+    </LinearLayout>
+
+</RelativeLayout>

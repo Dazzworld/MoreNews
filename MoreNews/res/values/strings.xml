@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">多点新闻</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="reflush">刷新</string>
+    <string name="title_activity_city_select">CitySelectActivity</string>
+    <string name="load_img_in_wifi_mode">仅在WIFI模式加载图片</string>
+    <string name="cache_clear">清除缓存</string>
+    <string name="slide_back">右滑返回</string>
+    <string name="night_mode">夜间模式</string>
+    <string name="search_history">搜索历史</string>
+    <string name="hot_word">近期热词</string>
+    <string name="read_not_history">无痕浏览</string>
+    <string name="nav_favorite">收藏夹</string>
+    <string name="nav_search">搜索</string>
+    <string name="nav_history">阅读历史</string>
+    <string name="nav_settings">设置</string>
+    <string name="about">关于</string>
+    <string name="check_update">检查更新</string>
+    <string name="user_feedback">用户反馈</string>
+    <string name="hot_news">24小时热点新闻</string>
+    <string name="category_edit">新闻分类编辑</string>
+
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/material_blue_500</item>
+        <item name="colorPrimaryDark">@color/material_blue_700</item>
+        <item name="android:textColorPrimary">@color/primary_text_default_material_dark</item>
+        <item name="colorControlNormal">#ffffff</item>
+        <item name="pstsIndicatorColor">@color/material_blue_500</item>
+        <item name="pstsTabTextSize">16sp</item>
+        <item name="pstsTabTextColor">#b0b0b0</item>
+        <item name="pstsUnderlineColor">#0000</item>
+        <item name="pstsDividerColor">#0000</item>
+        <item name="pstsIndicatorHeight">2dp</item>
+        <item name="pstsUnderlineHeight">0dp</item>
+        <item name="pstsTabPaddingLeftRight">7dp</item>
+        <item name="pstsScrollOffset">22dp</item>
+    </style>
+    
+</resources>

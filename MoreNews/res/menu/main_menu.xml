@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/more_24hours"
+        android:icon="@drawable/night_ic_main_menu_info"
+        android:title="24小时热点"
+        app:showAsAction="always"/>
+
+</menu>

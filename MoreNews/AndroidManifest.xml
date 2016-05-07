@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dazzcoder.morenews"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="21" />
+
+    <!-- 这个权限用于进行网络定位-->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- 这个权限用于访问GPS定位-->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位-->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 这个权限用于获取wifi的获取权限，wifi信息会用来进行网络定位-->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <!-- 用于读取手机当前的状态-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <!-- SD卡读取权限，用户写入离线定位数据-->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!--允许应用读取低级别的系统日志文件 -->
+    <uses-permission android:name="android.permission.READ_LOGS" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name=".AppContext"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="TICkslBTkvoxMcGGci3NfQ7E" />
+
+        <activity
+            android:name=".AppStart"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.NewsActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".activity.ReaderActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".activity.Hot24HoursActivity"
+            android:label="@string/hot_news"
+            android:launchMode="singleTask"
+            android:parentActivityName=".activity.NewsActivity" />
+        <activity
+            android:name=".activity.ImageSetReaderActivity"
+            android:launchMode="singleTask"
+            android:parentActivityName=".activity.NewsActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".activity.CartoonActivity"
+            android:launchMode="singleTask" />
+
+        <service android:name=".services.LocationServices" />
+
+        <activity
+            android:name=".activity.ActivitySelectCity"
+            android:label="@string/title_activity_city_select"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name=".activity.NewsClassEditActivity"
+            android:label="@string/category_edit"/>
+        <activity android:name=".activity.SearchActivity"
+            android:label="@string/nav_search"/>
+        <activity android:name=".activity.AppSettingsActivity"
+            android:label="@string/nav_settings"/>
+        <activity android:name=".activity.FavoriteActivity"
+            android:label="@string/nav_favorite"/>
+        <activity android:name=".activity.AboutAcitvity"
+            android:label="@string/about"/>
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" />
+    </application>
+
+</manifest>

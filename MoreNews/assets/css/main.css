@@ -1,0 +1,50 @@
+#header {
+	margin: 10px 0 8px 0;
+	padding: 0% 4%;
+}
+
+#header #title {
+	color: #333333;
+	font-size: 22px;
+	line-height: 27px;
+}
+
+#header #time,
+#header #from {
+	margin: 8px 0 2px 0;
+	font-size: 13px;
+	line-height: 16px;
+	display: inline;
+	-webkit-box-flex: 1;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	padding-right: 3px;
+	color: #aaaaaa;
+}
+
+#backtop {
+display:none;
+z-index:200;
+position: fixed;
+color:#f7f7f7;
+right: 10px;
+bottom: 20px;
+width: 40px;
+height: 40px;
+text-align: center;
+background: #807272;
+opacity: 0.8;
+border-radius: 50%;
+
+}
+
+#backtop:hover,
+#backtop:active{
+color: #000;
+background:#714040;
+}
+
+#backtop i {
+padding-top: 12px;
+}

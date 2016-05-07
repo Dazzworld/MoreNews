@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="@drawable/biz_pc_search_hot_search_bg"
+    android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/search_edit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@null"
+        android:ellipsize="end"
+        android:hint="请输入关键字..."
+        android:imeOptions="actionSearch"
+        android:inputType="text|textAutoComplete|textNoSuggestions"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:layout_gravity="center_vertical"
+        android:textColor="#2f2f2f"
+        android:textSize="14sp" />
+
+    <ImageButton
+        android:id="@+id/search_clear_btn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_vertical"
+        android:scaleType="fitXY"
+        android:background="#0000"
+        android:visibility="gone"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/ic_action_content_clear" />
+
+    <ImageButton
+        android:id="@+id/search_go_btn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_vertical"
+        android:background="#0000"
+        android:src="@drawable/biz_search_bar_submit" />
+</LinearLayout>
